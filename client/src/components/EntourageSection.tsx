@@ -9,24 +9,24 @@ const EntourageSection = () => {
     principalSponsors: {
       title: "Principal Sponsors",
       men: [
-        "Engr. Ramon Elias F. Ortiz",
-        "Gary C. Perez",
         "Salvador A. Lastimosa Jr.",
         "Sancho Glenn A. Lastimosa",
         "Capt. Igmedio G. Sorrera",
         "Henry F. Rabe",
         "Ferdinand V. Garcia",
-        "Edwin M. Clavito"
+        "Edwin M. Clavito",
+        "Engr. Ramon Elias F. Ortiz",
+        "Gary C. Perez"
       ],
       women: [
-        "Dra. Ma. Adelaida Decangchon-Ortiz",
-        "Dra. Melanie Katherine A. Lastimosa",
         "Arlene D. Lastimosa",
         "Jessly M. Lastimosa",
         "Viola E. Sorrera",
         "Grace M. Rabe",
         "Edna M. Clavito",
-        "Elenita C. Barreto"
+        "Elenita C. Barreto",
+        "Dra. Ma. Adelaida Decangchon-Ortiz",
+        "Dra. Melanie Katherine A. Lastimosa"
       ]
     },
     secondarySponsors: {
