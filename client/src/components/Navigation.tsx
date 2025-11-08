@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 
+import image_removebg_preview__5_ from "@assets/image-removebg-preview (5).png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -91,7 +93,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="https://res.cloudinary.com/dr3xey7h9/image/upload/v1760170580/17ea81a6-dbcd-4dbc-b598-ab591dc176c2-removebg-preview_vfbeaq.png" 
+              src={image_removebg_preview__5_} 
               alt="P&D Logo" 
               className="h-12 w-auto"
             />
@@ -129,7 +131,6 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden">
