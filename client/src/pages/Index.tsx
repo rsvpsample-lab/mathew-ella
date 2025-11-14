@@ -65,6 +65,10 @@ const Index = () => {
         <ImageLoop />
         <StorySection />
         <ScrollTriggeredTimeline />
+        <CoverSection
+          imageUrl="https://res.cloudinary.com/dasipilin/image/upload/v1763144107/cover1_gbipzj.jpg"
+          alt="Mathew & Reyniella Wedding Cover"
+        />
         <VenueSection />
         <CoverSection
           imageUrl={cover2Image}
@@ -75,13 +79,8 @@ const Index = () => {
         <MemorableMomentsSection />
         <RSVPSection />
         <CoverSection
-          youtubeVideoId="EMa2ePJdSso"
-          youtubeStartTime={14}
-          youtubeEndTime={30}
-          alt="Wedding Video Cover"
-          showControls={false}
-          showYoutubeBranding={false}
-          enableInteraction={false}
+          imageUrl="https://res.cloudinary.com/dasipilin/image/upload/v1763144106/cover3_c6a5sq.jpg"
+          alt="Mathew & Reyniella Wedding Cover"
         />
         <EntourageSection />
         <FAQSection />
