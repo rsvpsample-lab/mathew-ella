@@ -18,7 +18,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
       {/* Background Image */}
       <img
         src={heroImage}
-        alt="Kenneth & Suzette"
+        alt="Mathew & Reyniella"
         className="absolute inset-0 w-full h-full object-cover"
         data-testid="hero-image"
       />
@@ -40,7 +40,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           {animationsEnabled ? (
             <TypeAnimation
               sequence={[
-                'KENNETH & SUZETTE',
+                'MATHEW & REYNIELLA',
                 () => {
                   setShowElements(true);
                 }
@@ -61,7 +61,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
               }}
               className="typewriter-text"
             >
-              KENNETH & SUZETTE
+              MATHEW & REYNIELLA
             </span>
           )}
         </h1>
@@ -69,7 +69,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
         {/* Date */}
         <div className={`transition-all duration-700 mt-6 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
-            December 28, 2025 . Taal, Batangas
+            December 14, 2025 . Pulilan, Bulacan
           </p>
         </div>
       </div>

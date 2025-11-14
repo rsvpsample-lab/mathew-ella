@@ -20,12 +20,12 @@ const Footer = () => {
           {/* Couple Names */}
           <div>
             <h2 className="text-3xl sm:text-4xl mb-2 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Kenneth
+              Engr. Mathew
               <span className="text-primary mx-3">&</span>
-              Suzette
+              Reyniella
             </h2>
             <p className="text-foreground text-lg">
-              December 28, 2025 • Taal, Batangas
+              December 14, 2025 • Pulilan, Bulacan
             </p>
           </div>
 
@@ -43,6 +43,14 @@ const Footer = () => {
             </p>
           </div>
 
+          {/* Bible Verse */}
+          <div className="max-w-2xl mx-auto">
+            <p className="text-foreground leading-relaxed italic text-lg">
+              "Therefore what God has joined together, let no one separate."
+            </p>
+            <p className="text-foreground/70 text-sm mt-2">— Mark 10:9</p>
+          </div>
+
           {/* Thank You Message */}
           <div className="max-w-2xl mx-auto">
             <p className="text-foreground leading-relaxed italic">
@@ -56,7 +64,7 @@ const Footer = () => {
               With love and gratitude,
             </p>
             <p className="text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              Kenneth & Suzette
+              Mathew & Reyniella
             </p>
           </div>
 
