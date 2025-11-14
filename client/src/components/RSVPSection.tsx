@@ -65,24 +65,21 @@ const RSVPSection = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 11.4 }}
             >
-              <a 
-                href="https://kenneth-suzette-rsvp.replit.app" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block px-10 py-4 bg-primary text-primary-foreground text-sm md:text-base font-display tracking-wider hover:bg-primary/90 transition-colors duration-300 border-2 border-primary uppercase"
-                data-testid="button-rsvp"
-              >RSVP HERE!</a>
-
-              {/* Message below button with white container */}
+              {/* Message with contact details */}
               <div className="mt-8 bg-white rounded-2xl p-8 max-w-2xl mx-auto shadow-teal border border-primary/20">
                 <p 
                   className="font-body text-base md:text-lg text-foreground font-medium text-center mb-4"
                   data-testid="text-rsvp-message"
                 >
-                  Please confirm your attendance by responding to our invitation. Click the RSVP HERE! button above.
+                  Please confirm your attendance by contacting:
                 </p>
+                <div className="text-center mb-4">
+                  <p className="text-foreground text-lg font-semibold">Reyniella Valiente / Ella Ella</p>
+                  <p className="text-foreground">Facebook: Ella Ella</p>
+                  <p className="text-foreground">Contact: 09766497574</p>
+                </div>
                 <p className="text-center">
-                  <span className="font-body md:text-lg font-bold px-3 py-1 rounded whitespace-nowrap text-[12px] text-primary-foreground bg-primary">THE DEADLINE IS ON DECEMBER 20</span>
+                  <span className="font-body md:text-lg font-bold px-3 py-1 rounded whitespace-nowrap text-[12px] text-primary-foreground bg-primary">RSVP DUE DATE: NOVEMBER 25</span>
                 </p>
               </div>
             </motion.div>

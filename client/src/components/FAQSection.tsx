@@ -17,7 +17,7 @@ const FAQSection = () => {
     {
       question: "How do I confirm my attendance in your wedding?",
       icon: MessageCircle,
-      answer: "You can RSVP right here on our wedding website by clicking the RSVP button. We kindly ask that all guests RSVP by December 20, 2025 so we can plan everything perfectly!"
+      answer: "Please confirm your attendance by contacting Reyniella Valiente/Ella Ella on Facebook or call 09766497574. We kindly ask that all guests RSVP by November 25 so we can plan everything perfectly!"
     },
     {
       question: "I RSVP-ed but have a change of plans. What should I do?",
@@ -52,7 +52,7 @@ const FAQSection = () => {
     {
       question: "Are there nearby hotels in the Ceremony and Reception area?",
       icon: Hotel,
-      answer: "Absolutely! There are several hotels and Airbnb options nearby. For convenience, we recommend the Fynn Boutique Hotel. Let us know if you'd like a little help with your booking — we'd be happy to assist!"
+      answer: "Absolutely! There are several hotels and Airbnb options nearby in Pulilan, Bulacan. Let us know if you'd like a little help with your booking — we'd be happy to assist!"
     },
     {
       question: "Can I take photos during the ceremony?",
@@ -62,7 +62,7 @@ const FAQSection = () => {
     {
       question: "Can I take photos during the reception?",
       icon: Camera,
-      answer: "Yes, please do! Snap away during cocktail hour and the reception, and share your favorite memories using our official hashtag: #SuzyKennethAskForMore"
+      answer: "Yes, please do! Snap away during cocktail hour and the reception, and share your favorite memories using our official hashtag: #ELLAndedToMATsHeart"
     }
   ];
 

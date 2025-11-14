@@ -145,65 +145,33 @@ const container: React.CSSProperties = {
 const timelineEvents: TimelineEvent[] = [
     {
         time: "2:00 PM",
-        event: "Assembly Time",
+        event: "Guest Arrival",
         description: "Guests arrive and are welcomed to our special day.",
         icon: Users,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "2:30 PM",
-        event: "Wedding Ceremony",
+        time: "3:00 PM",
+        event: "Ceremony",
         description: "Witness our vows and the beginning of our journey together as we exchange rings and promises.",
         icon: Heart,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "3:30 PM",
-        event: "Photos",
-        description: "Capture beautiful memories with the couple and loved ones.",
-        icon: Camera,
-        hueA: 40,
-        hueB: 40,
-    },
-    {
-        time: "4:30 PM",
-        event: "Pica Pica",
-        description: "Enjoy delicious appetizers and refreshments.",
+        time: "5:00 PM",
+        event: "Cocktail Hours",
+        description: "Enjoy refreshments and mingle with family and friends.",
         icon: Wine,
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "5:00 PM",
-        event: "Reception",
-        description: "Join us in a joyful celebration of love, laughter, and gratitude.",
-        icon: Sparkles,
-        hueA: 40,
-        hueB: 40,
-    },
-    {
         time: "6:00 PM",
-        event: "Dinner",
-        description: "Savor a delightful meal with family and friends.",
-        icon: Utensils,
-        hueA: 40,
-        hueB: 40,
-    },
-    {
-        time: "8:00 PM",
-        event: "Party Party!",
-        description: "Let's dance and celebrate the night away!",
-        icon: PartyPopper,
-        hueA: 40,
-        hueB: 40,
-    },
-    {
-        time: "9:00 PM",
-        event: "Send-off",
-        description: "Bid farewell to the newlyweds with love and best wishes.",
-        icon: Heart,
+        event: "Program",
+        description: "Join us for the reception program and celebration of love.",
+        icon: Sparkles,
         hueA: 40,
         hueB: 40,
     },
@@ -279,7 +247,7 @@ export default function ScrollTriggeredTimeline() {
                         Help us capture moments on our special day by using the hashtag
                     </p>
                     <div className="inline-block border-2 border-primary rounded-lg px-4 md:px-6 py-3 bg-[#ffffff] max-w-full">
-                        <p className="text-primary text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag">#SuzyKennethAskForMore</p>
+                        <p className="text-primary text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag">#ELLAndedToMATsHeart</p>
                     </div>
                 </div>
             </motion.div>

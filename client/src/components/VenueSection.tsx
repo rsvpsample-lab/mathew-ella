@@ -11,26 +11,26 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Basilica De San Martin De Tours',
-      address: 'Taal, Batangas',
+      name: 'Merryland',
+      address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
       image: ceremonyImage,
-      mapUrl: 'https://maps.app.goo.gl/basilicadetaalbatangas',
-      mapEmbed: 'https://www.google.com/maps?q=Basilica+De+San+Martin+De+Tours+Taal+Batangas&output=embed',
-      description: 'Join us at the Basilica De San Martin De Tours for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
-      details: 'The ceremony begins at 2:30 PM. Please arrive by 2:00 PM to be seated.',
-      startTime: '2:30 PM',
+      mapUrl: 'https://maps.app.goo.gl/merryland',
+      mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
+      description: 'Join us at Merryland for our wedding ceremony. This beautiful venue will witness our vows of eternal love.',
+      details: 'The ceremony begins at 3:00 PM. Please arrive by 2:00 PM to be seated.',
+      startTime: '3:00 PM',
       locationGuide: 'View on Maps →'
     },
     {
       title: 'Reception',
-      name: 'The Stable Rancho Blanco Event Center',
-      address: 'Taal, Batangas',
+      name: 'Merryland',
+      address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
       image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/stablerancho',
-      mapEmbed: 'https://www.google.com/maps?q=The+Stable+Rancho+Blanco+Event+Center+Taal+Batangas&output=embed',
-      description: 'Join us at The Stable Rancho Blanco Event Center for our wedding reception. This beautiful venue will host our celebration of love.',
-      details: 'The reception begins at 5:00 PM. Photos at 3:30 PM, followed by pica pica at 4:30 PM.',
-      startTime: '5:00 PM',
+      mapUrl: 'https://maps.app.goo.gl/merryland',
+      mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
+      description: 'Join us at Merryland for our wedding reception. This beautiful venue will host our celebration of love.',
+      details: 'The reception begins at 6:00 PM with the program. Cocktail hours at 5:00 PM.',
+      startTime: '6:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];

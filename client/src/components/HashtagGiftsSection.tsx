@@ -70,13 +70,19 @@ const HashtagGiftsSection = () => {
                   className="text-sm md:text-base text-foreground/80 leading-relaxed"
                   data-testid="text-gifts-message"
                 >
-                  Your presence is the greatest gift we could ever receive.
+                  As love is what we already have,
+                  <br />
+                  we only ask for your prayers and presence.
                   <br /><br />
-                  Should you wish to extend your generosity, a token of love and support toward our new beginnings would be deeply appreciated.
+                  But if you wish to bless us with a gift,
+                  <br />
+                  we would be most grateful for a monetary one
+                  <br />
+                  to help us create our first home together.
                   <br /><br />
                   With love and gratitude,
                   <br />
-                  Kenneth and Suzette
+                  Mathew & Reyniella
                 </p>
               </motion.div>
             </motion.div>

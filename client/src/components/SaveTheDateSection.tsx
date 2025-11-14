@@ -87,7 +87,7 @@ const SaveTheDateSection = ({ audioRef }: SaveTheDateSectionProps) => {
             ref={iframeRef}
             className="absolute inset-0 w-full h-full"
             src="https://www.youtube.com/embed/iTrEwiH56pY?enablejsapi=1&autoplay=0&mute=0&controls=1&loop=1&playlist=iTrEwiH56pY&modestbranding=1&cc_load_policy=0&iv_load_policy=3"
-            title="Kenneth & Suzette - Save the Date"
+            title="Mathew & Reyniella - Save the Date"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             data-testid="video-save-the-date"

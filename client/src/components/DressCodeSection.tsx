@@ -69,11 +69,14 @@ const DressCodeSection = () => {
                   <div className="mb-6 relative">
                     <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-transparent rounded-2xl"></div>
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
-                      FOR PRINCIPAL SPONSORS
+                      FOR SPONSORS
                     </h3>
                     <div className="text-center px-4">
                       <p className="text-base font-semibold text-foreground mb-2">Formal Attire</p>
-                      <p className="text-sm text-foreground">Elegant and formal dress code is requested for our principal sponsors.</p>
+                      <p className="text-sm text-foreground mb-3">
+                        <strong>Men:</strong> Coat / Barong / Long sleeves<br/>
+                        <strong>Women:</strong> Evening Gown / Tailored Suits
+                      </p>
                     </div>
                   </div>
                 </motion.div>
@@ -135,7 +138,10 @@ const DressCodeSection = () => {
                     </h3>
                     <div className="text-center px-4 mb-3">
                       <p className="text-base font-semibold text-foreground mb-2">Semi Formal Attire</p>
-                      <p className="text-sm text-foreground">Please dress in semi-formal attire.</p>
+                      <p className="text-sm text-foreground mb-3">
+                        <strong>Men:</strong> Suit / Blazer / Polo / Polo Shirt<br/>
+                        <strong>Women:</strong> Sunday dress / Jumpsuit / Elegant Skirt
+                      </p>
                     </div>
                   </div>
                 </motion.div>
