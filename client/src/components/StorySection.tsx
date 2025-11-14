@@ -43,8 +43,8 @@ const StorySection = () => {
               </p>
               
               <blockquote className="border-l-4 border-primary pl-4 py-2 italic text-foreground/80">
-                <p className="mb-2">"Therefore what God has joined together, let no one separate."</p>
-                <cite className="text-sm not-italic text-foreground/60">— Mark 10:9</cite>
+                <p className="mb-2">"Love is patient, love is kind. It does not envy, it does not boast, it is not proud."</p>
+                <cite className="text-sm not-italic text-foreground/60">— 1 Corinthians 13:4</cite>
               </blockquote>
             </div>
           </div>

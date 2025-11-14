@@ -12,13 +12,15 @@ const Navigation = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const navItems = [
-    { name: 'Our Moments', href: '#slideshow' },
+    { name: 'Our Moments', href: '#image-loop' },
     { name: 'Countdown', href: '#countdown' },
     { name: 'Our Story', href: '#story' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Venue', href: '#venue' },
     { name: 'Dress Code', href: '#dresscode' },
-    { name: 'Prenup Photos', href: '#prenup-photos' },
+    { name: 'Entourage', href: '#entourage' },
+    { name: 'Memorable Moments', href: '#memorable-moments' },
+    { name: 'FAQs', href: '#faqs' },
     { name: 'RSVP', href: '#rsvp' }
   ];
 
