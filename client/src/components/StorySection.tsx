@@ -22,7 +22,7 @@ const StorySection = () => {
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">
           OUR STORY
         </h2>
-        <p className="text-center text-sm sm:text-base text-foreground/60 italic">A couple, a spark, and a shared love for adventure</p>
+        <p className="text-center text-sm sm:text-base text-foreground/60 italic">A journey of love and commitment</p>
       </motion.div>
       <div className="max-w-6xl mx-auto">
         <motion.div
@@ -38,19 +38,16 @@ const StorySection = () => {
               <Heart className="w-10 h-10 text-primary" />
             </div>
 
-            {/* Complete Story */}
-            <div className="space-y-4 text-base text-foreground/90 leading-relaxed" data-testid="text-story-content">
-              <p>
-                It all began in December 2020 — a simple conversation that quickly grew into something special. What started as friendly chats soon turned into late-night talks filled with laughter, shared dreams, and a connection that felt real and effortless.
+            {/* Love Description */}
+            <div className="space-y-6 text-base text-foreground/90 leading-relaxed" data-testid="text-story-content">
+              <p className="text-lg">
+                Love is patient, love is kind. It's finding your best friend, your partner, and your forever in one person. It's the promise to stand together through every season of life.
               </p>
               
-              <p>
-                By March 2021, our hearts already knew — this was the beginning of something beautiful. Since then, we've shared countless adventures together. Our days are made even brighter by our two adorable fur babies, Maxi and Mocha, who remind us every day what unconditional love looks like.
-              </p>
-              
-              <p>
-                And now, as we step into this new chapter as husband and wife, we're beyond grateful for the journey that brought us here — and for the love that continues to grow with every beat of our hearts.
-              </p>
+              <blockquote className="border-l-4 border-primary pl-4 py-2 italic text-foreground/80">
+                <p className="mb-2">"Therefore what God has joined together, let no one separate."</p>
+                <cite className="text-sm not-italic text-foreground/60">— Mark 10:9</cite>
+              </blockquote>
             </div>
           </div>
 
