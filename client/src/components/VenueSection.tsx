@@ -9,27 +9,15 @@ import venueImage from '@assets/venue_1763139981453.jpg';
 const VenueSection = () => {
   const venues = [
     {
-      title: 'Ceremony',
+      title: 'Ceremony & Reception',
       name: 'Merryland',
       address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
       image: venueImage,
-      mapUrl: 'https://maps.app.goo.gl/merryland',
-      mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
-      description: 'Join us at Merryland for our wedding ceremony. This beautiful venue will witness our vows of eternal love.',
-      details: 'The ceremony begins at 3:00 PM. Please arrive by 2:00 PM to be seated.',
+      mapUrl: 'https://maps.app.goo.gl/RDYU2RHZFDsUii4M7',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.5!2d120.8!3d14.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDU0JzAwLjAiTiAxMjDCsDQ4JzAwLjAiRQ!5e0!3m2!1sen!2sph!4v1234567890!5m2!1sen!2sph',
+      description: 'Join us at Merryland for our wedding ceremony and reception. This beautiful venue will witness our vows of eternal love and host our celebration.',
+      details: 'The ceremony begins at 3:00 PM. Please arrive by 2:00 PM to be seated. Reception follows at 6:00 PM with cocktail hours at 5:00 PM.',
       startTime: '3:00 PM',
-      locationGuide: 'View on Maps →'
-    },
-    {
-      title: 'Reception',
-      name: 'Merryland',
-      address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
-      image: venueImage,
-      mapUrl: 'https://maps.app.goo.gl/merryland',
-      mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
-      description: 'Join us at Merryland for our wedding reception. This beautiful venue will host our celebration of love.',
-      details: 'The reception begins at 6:00 PM with the program. Cocktail hours at 5:00 PM.',
-      startTime: '6:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];
