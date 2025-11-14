@@ -1,6 +1,6 @@
 import { Heart, Gift, Home } from 'lucide-react';
 import { motion } from 'framer-motion';
-import giftSectionBg from '@assets/gift guide_1762585062799.jpg';
+const giftSectionBg = 'https://res.cloudinary.com/dupi17hk7/image/upload/v1763141308/prenup12_nqlwa7.jpg';
 
 const GiftSection = () => {
   return (
