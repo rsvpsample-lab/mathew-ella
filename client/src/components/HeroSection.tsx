@@ -18,7 +18,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
       {/* Background Image */}
       <img
         src={heroImage}
-        alt="Dong & Riza"
+        alt="Kenneth & Suzette"
         className="absolute inset-0 w-full h-full object-cover"
         data-testid="hero-image"
       />
@@ -40,7 +40,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           {animationsEnabled ? (
             <TypeAnimation
               sequence={[
-                'DONG & RIZA',
+                'KENNETH & SUZETTE',
                 () => {
                   setShowElements(true);
                 }
@@ -61,7 +61,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
               }}
               className="typewriter-text"
             >
-              DONG & RIZA
+              KENNETH & SUZETTE
             </span>
           )}
         </h1>
@@ -69,7 +69,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
         {/* Date */}
         <div className={`transition-all duration-700 mt-6 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
-            January 10, 2026 . Imus, Cavite
+            December 28, 2025 . Taal, Batangas
           </p>
         </div>
       </div>
