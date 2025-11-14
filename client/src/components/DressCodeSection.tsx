@@ -7,15 +7,17 @@ import guestsImage from '@assets/guests_1762584098544.png';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: 'Olive Green', color: '#6B6F3C', hex: '#6B6F3C' },
-    { name: 'Light Brown', color: '#B8906B', hex: '#B8906B' },
-    { name: 'Sage Green', color: '#C8C89E', hex: '#C8C89E' },
-    { name: 'Cream Beige', color: '#D5C9B1', hex: '#D5C9B1' }
+    { name: 'Ivory', color: '#FFFFF0', hex: '#FFFFF0' },
+    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
+    { name: 'Espresso Brown', color: '#4E3524', hex: '#4E3524' },
+    { name: 'Gold', color: '#FFD700', hex: '#FFD700' }
   ];
 
   const principalSponsorsColors = [
-    { name: 'Deep Mauve', color: '#855752', hex: '#855752' },
-    { name: 'Rose Taupe', color: '#9e6862', hex: '#9e6862' }
+    { name: 'Ivory', color: '#FFFFF0', hex: '#FFFFF0' },
+    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
+    { name: 'Espresso Brown', color: '#4E3524', hex: '#4E3524' },
+    { name: 'Gold', color: '#FFD700', hex: '#FFD700' }
   ];
 
   return (
@@ -69,17 +71,9 @@ const DressCodeSection = () => {
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
                       FOR PRINCIPAL SPONSORS
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 text-left px-4">
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Gentlemen:</p>
-                        <p className="text-sm text-foreground">Barong attire</p>
-                        <p className="text-sm text-foreground">Brown or khaki slacks</p>
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Ladies:</p>
-                        <p className="text-sm text-foreground">Modern Filipiniana</p>
-                        <p className="text-sm text-foreground">or Long Evening Gown</p>
-                      </div>
+                    <div className="text-center px-4">
+                      <p className="text-base font-semibold text-foreground mb-2">Formal Attire</p>
+                      <p className="text-sm text-foreground">Elegant and formal dress code is requested for our principal sponsors.</p>
                     </div>
                   </div>
                 </motion.div>
@@ -92,15 +86,15 @@ const DressCodeSection = () => {
                   transition={{ duration: 0.8, delay: 8.5 }}
                 />
                 
-                {/* Color Palette for Principal Sponsors Ladies */}
+                {/* Color Palette for Principal Sponsors */}
                 <motion.div
                   className="mt-6 pt-6 border-t border-primary/20"
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: 8.7 }}
                 >
-                  <p className="text-sm font-semibold text-foreground mb-3">Color Motif (Ladies)</p>
-                  <div className="flex justify-center gap-4">
+                  <p className="text-sm font-semibold text-foreground mb-3">Color Palette</p>
+                  <div className="flex justify-center gap-4 flex-wrap">
                     {principalSponsorsColors.map((colorItem, index) => (
                       <div key={index} className="text-center">
                         <div 
@@ -139,17 +133,9 @@ const DressCodeSection = () => {
                     <h3 className="text-xl font-display font-medium text-foreground mb-4 relative z-10">
                       FOR GUESTS
                     </h3>
-                    <div className="grid grid-cols-2 gap-4 text-left px-4 mb-3">
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Gentlemen:</p>
-                        <p className="text-sm text-foreground">Barong or Polo Barong</p>
-                        <p className="text-sm text-foreground">Black slacks</p>
-                      </div>
-                      <div>
-                        <p className="text-sm font-semibold text-foreground mb-2">Ladies:</p>
-                        <p className="text-sm text-foreground">Modern Filipiniana</p>
-                        <p className="text-sm text-foreground">or Long Evening Gown</p>
-                      </div>
+                    <div className="text-center px-4 mb-3">
+                      <p className="text-base font-semibold text-foreground mb-2">Semi Formal Attire</p>
+                      <p className="text-sm text-foreground">Please dress in semi-formal attire.</p>
                     </div>
                   </div>
                 </motion.div>
@@ -178,7 +164,7 @@ const DressCodeSection = () => {
               Important Reminders
             </h3>
             <p className="text-sm text-foreground text-center leading-relaxed">
-              In keeping with the formality of the event, we kindly ask that guests refrain from wearing jeans, denim, slippers or rubber shoes.
+              Strictly no denim pants and t-shirts. Thank you for honoring our dress code!
             </p>
           </div>
         </motion.div>

@@ -76,7 +76,7 @@ const HashtagGiftsSection = () => {
                   <br /><br />
                   With love and gratitude,
                   <br />
-                  Dong and Riza
+                  Kenneth and Suzette
                 </p>
               </motion.div>
             </motion.div>

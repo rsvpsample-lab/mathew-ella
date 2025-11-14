@@ -11,26 +11,26 @@ const VenueSection = () => {
   const venues = [
     {
       title: 'Ceremony',
-      name: 'Diocesan Shrine and Parish of Our Lady of the Pillar',
-      address: 'Imus, Cavite',
+      name: 'Basilica De San Martin De Tours',
+      address: 'Taal, Batangas',
       image: ceremonyImage,
-      mapUrl: 'https://maps.app.goo.gl/6oAPZrvdjmzW3coo6',
-      mapEmbed: 'https://www.google.com/maps?q=Diocesan+Shrine+and+Parish+of+Our+Lady+of+the+Pillar+Imus+Cavite&output=embed',
-      description: 'Join us at the Diocesan Shrine and Parish of Our Lady of the Pillar for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
-      details: 'The ceremony begins at 2:00 PM. Please arrive by 1:30 PM to be seated.',
-      startTime: '2:00 PM',
+      mapUrl: 'https://maps.app.goo.gl/basilicadetaalbatangas',
+      mapEmbed: 'https://www.google.com/maps?q=Basilica+De+San+Martin+De+Tours+Taal+Batangas&output=embed',
+      description: 'Join us at the Basilica De San Martin De Tours for our wedding ceremony. This beautiful church will witness our vows of eternal love.',
+      details: 'The ceremony begins at 2:30 PM. Please arrive by 2:00 PM to be seated.',
+      startTime: '2:30 PM',
       locationGuide: 'View on Maps →'
     },
     {
       title: 'Reception',
-      name: 'Sañez Farm Events Place',
-      address: 'Imus, Cavite',
+      name: 'The Stable Rancho Blanco Event Center',
+      address: 'Taal, Batangas',
       image: receptionImage,
-      mapUrl: 'https://maps.app.goo.gl/tFztuwErbaRK5BFC9',
-      mapEmbed: 'https://www.google.com/maps?q=Sa%C3%B1ez+Farm+Events+Place+Imus+Cavite&output=embed',
-      description: 'Join us at Sañez Farm Events Place for our wedding reception. This beautiful venue will host our celebration of love.',
-      details: 'The reception begins at 5:30 PM. Cocktail hour starts at 4:00 PM.',
-      startTime: '5:30 PM',
+      mapUrl: 'https://maps.app.goo.gl/stablerancho',
+      mapEmbed: 'https://www.google.com/maps?q=The+Stable+Rancho+Blanco+Event+Center+Taal+Batangas&output=embed',
+      description: 'Join us at The Stable Rancho Blanco Event Center for our wedding reception. This beautiful venue will host our celebration of love.',
+      details: 'The reception begins at 5:00 PM. Photos at 3:30 PM, followed by pica pica at 4:30 PM.',
+      startTime: '5:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];
