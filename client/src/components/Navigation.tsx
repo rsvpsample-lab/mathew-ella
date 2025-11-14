@@ -4,6 +4,8 @@ import { Menu, X } from 'lucide-react';
 
 import image_removebg_preview__5_ from "@assets/image-removebg-preview (5).png";
 
+import image_removebg_preview from "@assets/image-removebg-preview.png";
+
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('');
@@ -93,7 +95,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src={image_removebg_preview__5_} 
+              src={image_removebg_preview} 
               alt="P&D Logo" 
               className="h-12 w-auto"
             />

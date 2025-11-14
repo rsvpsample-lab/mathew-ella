@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 const EntourageSection = () => {
   const entourageData = {
     parents: [
-      { label: "Parents of the Bride", names: ["Mr. Reynaldo S. Valiente Jr.", "Mrs. Manelyn N. Valiente"] },
-      { label: "Parents of the Groom", names: ["Mr. Nepthalie S. Ventura", "Mrs. Rowena R. Ventura"] }
+      { label: "Parents of Bride", names: ["Mr. Reynaldo S. Valiente Jr.", "Mrs. Manelyn N. Valiente"] },
+      { label: "Parents of Groom", names: ["Mr. Nepthalie S. Ventura", "Mrs. Rowena R. Ventura"] }
     ],
     principalSponsors: {
       title: "Principal Sponsors",
@@ -39,16 +39,15 @@ const EntourageSection = () => {
         "Mrs. Miriam Ventura"
       ]
     },
-    secondarySponsors: {
-      title: "Secondary Sponsors",
-      roles: [
-        { role: "Veil", names: ["Engr. Aldrin Salazar", "Mrs. Annalyn Salazar"] },
-        { role: "Cord", names: ["Mr. Kelvin Estrada", "Ms. Romy Rose Ranoco"] },
-        { role: "Candle", names: ["Engr. Ervien Joseph Pagtalunan", "Mrs. Hannah Jade Pagtalunan"] }
-      ]
-    },
     bestMan: { name: "Mr. John Moises Ventura", role: "Best Man" },
     maidOfHonor: { name: "Ms. Sharon Grace Garcia", role: "Maid of Honor" },
+    secondarySponsors: {
+      title: "Secondary Sponsors",
+      couples: [
+        { man: "Engr. Aldrin Salazar", woman: "Mrs. Annalyn Salazar" },
+        { man: "Engr. Ervien Joseph Pagtalunan", woman: "Mrs. Hannah Jade Pagtalunan" }
+      ]
+    },
     groomsmen: [
       "Rey Christian Valiente",
       "Rey Justin Valiente",
@@ -61,7 +60,7 @@ const EntourageSection = () => {
       "Kyle Justine San Mateo",
       "Richard De Juaiting"
     ],
-    bridesmaids: [
+    maidOfHonorList: [
       "Angel Ventura",
       "Jean Heart Ragas",
       "Lyd Josephin Ventura",
@@ -72,6 +71,11 @@ const EntourageSection = () => {
       "Charlotte Morales",
       "Percy Mallari",
       "Justine Mae Domingo"
+    ],
+    cordVeilCandle: [
+      { role: "Cord", names: ["Ms. Romy Rose Ranoco", "Mr. Kelvin Estrada"] },
+      { role: "Veil", names: ["Engr. Aldrin Salazar", "Mrs. Annalyn Salazar"] },
+      { role: "Candle", names: ["Engr. Ervien Joseph Pagtalunan", "Mrs. Hannah Jade Pagtalunan"] }
     ],
     bearers: [
       { role: "Bible Bearer", names: ["Criztan James Ranoco"] },
@@ -172,43 +176,12 @@ const EntourageSection = () => {
           </div>
         </motion.div>
 
-        {/* Secondary Sponsors */}
-        <motion.div 
-          className="mb-8 md:mb-12"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 9.2 }}
-        >
-          <h3 className="text-xl md:text-2xl lg:text-3xl font-display font-bold mb-4 md:mb-6 text-primary" data-testid="secondary-sponsors-title">
-            {entourageData.secondarySponsors.title}
-          </h3>
-          <div className="max-w-4xl mx-auto space-y-1">
-            {entourageData.secondarySponsors.roles.map((item, index) => (
-              <div key={index} className="grid grid-cols-2 gap-4 md:gap-8" data-testid={`secondary-sponsor-${item.role.toLowerCase()}`}>
-                <div className="text-right">
-                  <h4 className="text-sm md:text-base lg:text-lg font-display font-semibold text-primary inline">
-                    {item.role}:{" "}
-                  </h4>
-                  <span className="text-xs md:text-base lg:text-lg font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-0`}>
-                    {item.names[0]}
-                  </span>
-                </div>
-                <div className="text-left">
-                  <span className="text-xs md:text-base lg:text-lg font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-1`}>
-                    {item.names[1]}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </motion.div>
-
         {/* Best Man and Maid of Honor */}
         <motion.div 
           className="mb-8 md:mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 9.4 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 9.2 }}
         >
           <div className="grid grid-cols-2 gap-4 md:gap-8 max-w-4xl mx-auto">
             <div className="text-center" data-testid="best-man-section">
@@ -230,7 +203,31 @@ const EntourageSection = () => {
           </div>
         </motion.div>
 
-        {/* Groomsmen & Bridesmaids */}
+        {/* Secondary Sponsors */}
+        <motion.div 
+          className="mb-8 md:mb-12"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 9.4 }}
+        >
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-display font-bold mb-4 md:mb-6 text-primary" data-testid="secondary-sponsors-title">
+            {entourageData.secondarySponsors.title}
+          </h3>
+          <div className="max-w-4xl mx-auto space-y-1">
+            {entourageData.secondarySponsors.couples.map((couple, index) => (
+              <div key={index} className="grid grid-cols-2 gap-4 md:gap-8" data-testid={`secondary-sponsor-${index}`}>
+                <p className="text-xs md:text-base lg:text-lg font-telma text-foreground text-right">
+                  {couple.man}
+                </p>
+                <p className="text-xs md:text-base lg:text-lg font-telma text-foreground text-left">
+                  {couple.woman}
+                </p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Groomsmen & Maid of Honor */}
         <motion.div 
           className="mb-8 md:mb-12"
           initial={{ opacity: 0, y: 30 }}
@@ -248,16 +245,41 @@ const EntourageSection = () => {
                 </p>
               ))}
             </div>
-            <div className="text-center" data-testid="bridesmaids-section">
+            <div className="text-center" data-testid="maid-of-honor-list-section">
               <h3 className="text-lg md:text-2xl lg:text-3xl font-display font-bold mb-3 md:mb-6 text-primary">
-                Bridesmaids
+                Maid of Honor
               </h3>
-              {entourageData.bridesmaids.map((name, index) => (
-                <p key={index} className="text-xs md:text-base lg:text-lg font-telma text-foreground mb-1 text-left" data-testid={`bridesmaid-${index}`}>
+              {entourageData.maidOfHonorList.map((name, index) => (
+                <p key={index} className="text-xs md:text-base lg:text-lg font-telma text-foreground mb-1 text-left" data-testid={`maid-of-honor-list-${index}`}>
                   {name}
                 </p>
               ))}
             </div>
+          </div>
+        </motion.div>
+
+        {/* Cord, Veil, Candle */}
+        <motion.div 
+          className="mb-8 md:mb-12"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 9.8 }}
+        >
+          <div className="max-w-4xl mx-auto space-y-3">
+            {entourageData.cordVeilCandle.map((item, index) => (
+              <div key={index} className="text-center" data-testid={`${item.role.toLowerCase()}-section`}>
+                <h4 className="text-sm md:text-base lg:text-lg font-display font-semibold text-primary mb-1">
+                  {item.role}
+                </h4>
+                <div className="space-y-1">
+                  {item.names.map((name, nameIndex) => (
+                    <p key={nameIndex} className="text-xs md:text-base font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-${nameIndex}`}>
+                      {name}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </motion.div>
 
@@ -266,7 +288,7 @@ const EntourageSection = () => {
           className="mb-8 md:mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 9.8 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 10.0 }}
         >
           <div className="grid grid-cols-3 gap-4 md:gap-6 max-w-4xl mx-auto">
             {entourageData.bearers.map((item, index) => (
@@ -284,16 +306,16 @@ const EntourageSection = () => {
           </div>
         </motion.div>
 
-        {/* Flower Girls */}
+        {/* Flower girl */}
         <motion.div 
           className="mb-8 md:mb-12"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 10.0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 10.2 }}
         >
           <div className="text-center" data-testid="flower-girls-section">
             <h3 className="text-lg md:text-2xl lg:text-3xl font-display font-bold mb-3 md:mb-6 text-primary">
-              Flower Girls
+              Flower girl
             </h3>
             <div className="grid grid-cols-3 gap-2 max-w-3xl mx-auto">
               {entourageData.flowerGirls.map((name, index) => (
