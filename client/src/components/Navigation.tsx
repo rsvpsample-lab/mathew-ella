@@ -14,7 +14,7 @@ const Navigation = () => {
   const navItems = [
     { name: 'Our Moments', href: '#image-loop' },
     { name: 'Countdown', href: '#countdown' },
-    { name: 'Our Story', href: '#story' },
+    { name: 'She Said Yes', href: '#story' },
     { name: 'Timeline', href: '#timeline' },
     { name: 'Venue', href: '#venue' },
     { name: 'Dress Code', href: '#dresscode' },
