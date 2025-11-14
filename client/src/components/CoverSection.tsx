@@ -113,61 +113,58 @@ const CoverSection = ({
 
   return (
     <section className={`bg-white relative w-full overflow-hidden ${className}`}>
-      {/* Full Width Media Container */}
-      <div className="relative w-screen left-1/2 -translate-x-1/2 overflow-hidden">
-        {youtubeVideoId ? (
-          <div 
-            ref={containerRef}
-            className="relative w-full"
-            style={{ 
-              paddingBottom: '56.25%',
-              pointerEvents: enableInteraction ? 'auto' : 'none' 
-            }}
-          >
-            <div
-              id={playerIdRef.current}
-              className="absolute inset-0 w-full h-full"
-              style={{
-                transform: showControls ? 'scale(1)' : 'scale(1.5)',
-                transformOrigin: 'center center',
-              }}
-              data-testid={`cover-youtube-${alt}`}
-            />
-          </div>
-        ) : videoUrl ? (
-          <video
-            src={videoUrl}
-            autoPlay
-            loop
-            muted
-            playsInline
+      {youtubeVideoId ? (
+        <div 
+          ref={containerRef}
+          className="relative w-full"
+          style={{ 
+            paddingBottom: '56.25%',
+            pointerEvents: enableInteraction ? 'auto' : 'none' 
+          }}
+        >
+          <div
+            id={playerIdRef.current}
+            className="absolute inset-0 w-full h-full"
             style={{
-              display: 'block',
-              width: '100%',
-              height: 'auto',
-              objectFit: 'cover',
-              objectPosition: 'center',
-              margin: 0,
-              padding: 0
+              transform: showControls ? 'scale(1)' : 'scale(1.5)',
+              transformOrigin: 'center center',
             }}
-            data-testid={`cover-video-${alt}`}
+            data-testid={`cover-youtube-${alt}`}
           />
-        ) : (
-          <img 
-            src={imageUrl}
-            alt={alt}
-            style={{
-              display: 'block',
-              width: '100%',
-              height: 'auto',
-              objectFit: 'cover',
-              objectPosition: 'center',
-              margin: 0,
-              padding: 0
-            }}
-          />
-        )}
-      </div>
+        </div>
+      ) : videoUrl ? (
+        <video
+          src={videoUrl}
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{
+            display: 'block',
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+            objectPosition: 'center',
+            margin: 0,
+            padding: 0
+          }}
+          data-testid={`cover-video-${alt}`}
+        />
+      ) : (
+        <img 
+          src={imageUrl}
+          alt={alt}
+          style={{
+            display: 'block',
+            width: '100%',
+            height: 'auto',
+            objectFit: 'cover',
+            objectPosition: 'center',
+            margin: 0,
+            padding: 0
+          }}
+        />
+      )}
       
       {/* Hide YouTube branding */}
       {youtubeVideoId && !showYoutubeBranding && (
