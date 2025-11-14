@@ -17,22 +17,22 @@ const FAQSection = () => {
     {
       question: "How do I confirm my attendance in your wedding?",
       icon: MessageCircle,
-      answer: "Please confirm your attendance by contacting Reyniella Valiente/Ella Ella on Facebook or call 09766497574. We kindly ask that all guests RSVP by November 25 so we can plan everything perfectly!"
+      answer: "Please confirm your attendance using the contact information provided in the RSVP section above. We kindly ask that all guests RSVP by November 25 so we can plan everything perfectly!"
     },
     {
       question: "I RSVP-ed but have a change of plans. What should I do?",
       icon: MessageCircle,
-      answer: "Change of heart or schedule? No worries! If you've already declined but are now able to join, just send us a message. We'll check if there's still space for you to celebrate with us!"
+      answer: "Change of heart or schedule? No worries! Please contact us using the information in the RSVP section. If you've already declined but are now able to join, we'll check if there's still space for you to celebrate with us!"
     },
     {
       question: "Can I bring someone with me?",
       icon: Users,
-      answer: "We'd love to welcome everyone, but due to limited space, we're keeping our celebration intimate. We kindly ask that only the names listed on the invitation join us. Thank you for understanding and helping make the day special for all!"
+      answer: "We'd love to welcome everyone, but due to limited space, we're keeping our celebration intimate. We kindly ask that only the names listed on the invitation join us. If you have questions about your invitation, please reach out to us using the contact information in the RSVP section. Thank you for understanding and helping make the day special for all!"
     },
     {
       question: "Can I bring someone else if my plus one or household member can't make it?",
       icon: Users,
-      answer: "We totally understand that plans can change! However, invitations are reserved for the guests listed. If your plus one or household member can't make it, please reach out to us— we'll gladly assist you from there."
+      answer: "We totally understand that plans can change! However, invitations are reserved for the guests listed. If your plus one or household member can't make it, please contact us using the information in the RSVP section— we'll gladly assist you from there."
     },
     {
       question: "Can I bring my kids during the event?",
