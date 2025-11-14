@@ -1,7 +1,7 @@
 # Wedding Invitation Website
 
 ## Overview
-This project is a full-stack JavaScript application for a wedding invitation website for Dong & Riza, celebrating their wedding on January 10, 2026. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
+This project is a full-stack JavaScript application for a wedding invitation website for Kenneth I. Napa and Suzette A. Contreras, celebrating their wedding on December 28, 2025. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
 
 ## User Preferences
 - Background music should play automatically when clicking "Open Invitation" with NO control buttons
@@ -22,31 +22,30 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
-- **2025-11-07**: Complete content overhaul for Dong & Riza's wedding:
-  - Updated all components with new couple names "Dong & Riza"
-  - Changed wedding date to January 10, 2026 at 2:00 PM
-  - Updated venues to two separate locations:
-    - Ceremony: Diocesan Shrine and Parish of Our Lady of the Pillar - Imus, Cavite
-    - Reception: Sañez Farm Events Place – Imus, Cavite
-  - Updated dress code section with new Filipino formal attire guidelines:
-    - Principal Sponsors: Gentlemen - Barong attire with brown or khaki slacks, Ladies - Modern Filipiniana or Long Evening Gown
-    - Guests: Gentlemen - Barong or Polo Barong in Black Slacks, Ladies - Modern Filipiniana or Long Evening Gown
-    - Added important reminders: No jeans, denim, slippers or rubber shoes
-  - Updated wedding guest color motif with earth tones:
-    - Olive Green (#6B6F3C), Light Brown (#B8906B), Sage Green (#C8C89E), Cream Beige (#D5C9B1)
+- **2025-11-14**: Complete content overhaul for Kenneth & Suzette's wedding:
+  - Updated all components with new couple names "Kenneth I. Napa & Suzette A. Contreras"
+  - Changed wedding date to December 28, 2025 at 2:30 PM
+  - Updated venues to two separate locations in Taal, Batangas:
+    - Ceremony: Basilica De San Martin De Tours - Taal, Batangas
+    - Reception: The Stable Rancho Blanco Event Center - Taal, Batangas
+  - Updated dress code section with new attire guidelines:
+    - Principal Sponsors: Formal attire
+    - Guests: Semi Formal Attire
+    - Added important reminder: Strictly no denim pants and t-shirts
+  - Updated wedding color palette:
+    - Ivory (#FFFFF0), Champagne (#F7E7CE), Espresso Brown (#4E3524), Gold (#FFD700)
   - Updated wedding timeline:
-    - 1:30 PM: Guest Arrival
-    - 2:00 PM: Wedding Ceremony
-    - 4:00 PM: Cocktail Hours
-    - 5:30 PM: Reception
-  - Changed wedding hashtags to #TheweddingofD&R and #D&R2026
-  - Updated HTML title and meta description with new couple names and date
-  - Updated countdown timer to January 10, 2026 at 2:00 PM
-  - Removed TimelineCardsSection and LoveStoryCover components from the website
-  - Completely redesigned love story section:
-    - Removed horizontal scrolling effects and GSAP animations
-    - Simplified to single, elegant section with no scrolling
-    - Updated story text: December 2020 beginning, March 2021 commitment, fur babies Maxi and Mocha
-    - Added two new story images (beach scene and couple image)
-    - Clean, simple layout with text and images in a responsive grid
+    - 2:00 PM: Assembly Time
+    - 2:30 PM: Wedding Ceremony
+    - 3:30 PM: Photos
+    - 4:30 PM: Pica Pica
+    - 5:00 PM: Reception
+    - 6:00 PM: Dinner
+    - 8:00 PM: Party Party!
+    - 9:00 PM: Send-off
+  - Changed wedding hashtag to #SuzyKennethAskForMore
+  - Updated RSVP deadline to December 20, 2025
+  - Updated RSVP link to kenneth-suzette-rsvp.replit.app
+  - Updated countdown timer to December 28, 2025 at 2:30 PM
+  - Updated all references throughout the website including Hero, Footer, Venue, DressCode, Timeline, FAQ, RSVP, SaveTheDate, and HashtagGifts sections
 
