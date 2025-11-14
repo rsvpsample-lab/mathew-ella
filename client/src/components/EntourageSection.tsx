@@ -4,59 +4,83 @@ import principalSponsorsImage from '@assets/image_1763142182603.png';
 const EntourageSection = () => {
   const entourageData = {
     parents: [
-      { label: "Mother of the Groom", names: ["Ma. Nelia Lara A. Lastimosa"] },
-      { label: "Parents of the Bride", names: ["Roberto F. Rabe", "Editha C. Rabe†"] }
+      { label: "Parents of the Bride", names: ["Mr. Reynaldo S. Valiente Jr.", "Mrs. Manelyn N. Valiente"] },
+      { label: "Parents of the Groom", names: ["Mr. Nepthalie S. Ventura", "Mrs. Rowena R. Ventura"] }
     ],
     principalSponsors: {
       title: "Principal Sponsors",
       men: [
-        "Salvador A. Lastimosa Jr.",
-        "Sancho Glenn A. Lastimosa",
-        "Capt. Igmedio G. Sorrera",
-        "Henry F. Rabe",
-        "Ferdinand V. Garcia",
-        "Edwin M. Clavito",
-        "Gary C. Perez",
-        "Engr. Ramon Elias F. Ortiz"
+        "Mr. Ruben S. Ronquillo, Jr.",
+        "Kap. Michael Ramos",
+        "Mr. Raymond Kaibigan",
+        "Mr. Allan Abayari",
+        "Doc. Eduardo Torne",
+        "Mr. Jesus Pangilinan",
+        "Engr. Segundo Ventura II",
+        "Mr. Joseph Glenn Segismundo Angeles",
+        "Mr. Rodan Roque",
+        "Mr. Ross Francisco",
+        "Mr. Guilliermo Mia",
+        "Mr. Danilo P. Segismundo I",
+        "Mr. Belteshazzar Ventura"
       ],
       women: [
-        "Arlene D. Lastimosa",
-        "Jessly M. Lastimosa",
-        "Viola E. Sorrera",
-        "Grace M. Rabe",
-        "Edna M. Clavito",
-        "Elenita C. Barreto",
-        "Dra. Melanie Katherine A. Lastimosa",
-        "Dra. Ma. Adelaida Decangchon-Ortiz"
+        "Mrs. Josephine Garcia",
+        "Mrs. Minerva Lacson",
+        "Ms. Jasmine Esguerra",
+        "Ms. Maureen Valiente",
+        "Mrs. Marissa Torne",
+        "Doc. Cecil Balita Braga",
+        "Mrs. Edna Ventura",
+        "Mrs. Evelyn Palasigue",
+        "Mrs. Charry Jane Ventura",
+        "Mrs. Ada Karina Pineda",
+        "Mrs. Fely Mia",
+        "Mrs. Ma. Cecilia V. Cali",
+        "Mrs. Miriam Ventura"
       ]
     },
     secondarySponsors: {
       title: "Secondary Sponsors",
       roles: [
-        { role: "Candle", names: ["Jomari C. Metro", "Jazzie Ayne G. Palino"] },
-        { role: "Veil", names: ["Gerald D. Gacias", "Monette V. Velasco"] },
-        { role: "Cord", names: ["Ray Erik C. Rabe", "Vina Joy P. Rabe"] }
+        { role: "Veil", names: ["Engr. Aldrin Salazar", "Mrs. Annalyn Salazar"] },
+        { role: "Cord", names: ["Mr. Kelvin Estrada", "Ms. Romy Rose Ranoco"] },
+        { role: "Candle", names: ["Engr. Ervien Joseph Pagtalunan", "Mrs. Hannah Jade Pagtalunan"] }
       ]
     },
-    bestMan: { name: "Crisanto Angelo A. Lastimosa", role: "Best Man" },
-    maidOfHonor: { name: "Bea C. Mateo", role: "Maid of Honor" },
+    bestMan: { name: "Mr. John Moises Ventura", role: "Best Man" },
+    maidOfHonor: { name: "Ms. Sharon Grace Garcia", role: "Maid of Honor" },
     groomsmen: [
-      "John Cedrick C. Metro",
-      "Justin Carlos H. Gallardo"
+      "Rey Christian Valiente",
+      "Rey Justin Valiente",
+      "Christian Jeb Bernardino",
+      "Kelvin Estrada",
+      "Noah Ventura",
+      "Daniel Isher Saranilla",
+      "Engr. Aldrian Igna",
+      "Richard Cruz",
+      "Kyle Justine San Mateo",
+      "Richard De Juaiting"
     ],
     bridesmaids: [
-      "Mana Cecilia A. Lastimosa",
-      "Pauline Marie L. Lagutan"
+      "Angel Ventura",
+      "Jean Heart Ragas",
+      "Lyd Josephin Ventura",
+      "Romy Rose Ranoco",
+      "Shekinah Ventura",
+      "Nielle Andrea Alarcon",
+      "Archt. Eila Bettina Ner Ronquillo",
+      "Charlotte Morales",
+      "Percy Mallari",
+      "Justine Mae Domingo"
     ],
     bearers: [
-      { role: "Ring Bearer", names: ["Kim Ivan M. Lastimosa"] },
-      { role: "Coin Bearer", names: ["Toby Fennell L. Lagutan"] },
-      { role: "Bible Bearer", names: ["Alwin L. Clavito"] }
+      { role: "Bible Bearer", names: ["Criztan James Ranoco"] },
+      { role: "Coin Bearer", names: ["Alistair Frauste Santos"] },
+      { role: "Ring Bearer", names: ["Lucas Ventura"] }
     ],
     flowerGirls: [
-      "Elle Viatrix P. Rabe",
-      "Janiyah Zoe G. Palino",
-      "Zhya Paulina L. Perez"
+      "Leonore Ventura"
     ]
   };
 
@@ -75,13 +99,27 @@ const EntourageSection = () => {
       </div>
       <div className="max-w-6xl mx-auto px-4 text-center relative z-10">
         <motion.h2 
-          className="text-4xl md:text-5xl lg:text-6xl font-display font-light text-gold-bright mb-12 md:mb-16"
+          className="text-4xl md:text-5xl lg:text-6xl font-display font-light text-gold-bright mb-6 md:mb-8"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 8.5 }}
         >
           Entourage
         </motion.h2>
+
+        <motion.div
+          className="mb-12 md:mb-16"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 8.7 }}
+        >
+          <blockquote className="max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl italic text-foreground/80 mb-2">
+              "Therefore what God has joined together, let no one separate."
+            </p>
+            <cite className="text-sm md:text-base not-italic text-foreground/60">— Mark 10:9</cite>
+          </blockquote>
+        </motion.div>
 
         {/* Parents */}
         <motion.div 
@@ -155,17 +193,22 @@ const EntourageSection = () => {
           <h3 className="text-xl md:text-2xl lg:text-3xl font-display font-bold mb-4 md:mb-6 text-primary" data-testid="secondary-sponsors-title">
             {entourageData.secondarySponsors.title}
           </h3>
-          <div className="grid grid-cols-3 gap-4 md:gap-6 max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-1">
             {entourageData.secondarySponsors.roles.map((item, index) => (
-              <div key={index} className="text-center" data-testid={`secondary-sponsor-${item.role.toLowerCase()}`}>
-                <h4 className="text-sm md:text-lg lg:text-xl font-display font-semibold mb-1 md:mb-2 text-primary">
-                  {item.role}
-                </h4>
-                {item.names.map((name, nameIndex) => (
-                  <p key={nameIndex} className="text-xs md:text-base lg:text-lg font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-${nameIndex}`}>
-                    {name}
-                  </p>
-                ))}
+              <div key={index} className="grid grid-cols-2 gap-4 md:gap-8" data-testid={`secondary-sponsor-${item.role.toLowerCase()}`}>
+                <div className="text-right">
+                  <h4 className="text-sm md:text-base lg:text-lg font-display font-semibold text-primary inline">
+                    {item.role}:{" "}
+                  </h4>
+                  <span className="text-xs md:text-base lg:text-lg font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-0`}>
+                    {item.names[0]}
+                  </span>
+                </div>
+                <div className="text-left">
+                  <span className="text-xs md:text-base lg:text-lg font-telma text-foreground" data-testid={`${item.role.toLowerCase()}-name-1`}>
+                    {item.names[1]}
+                  </span>
+                </div>
               </div>
             ))}
           </div>
