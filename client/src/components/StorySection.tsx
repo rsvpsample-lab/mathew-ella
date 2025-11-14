@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import storyCoupleImage from '@assets/Our Love Story_1762529306772.jpg';
+import storyCoupleImage from '@assets/shesaidyes_1763139981452.jpg';
 import { Heart } from 'lucide-react';
 
 const StorySection = () => {

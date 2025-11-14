@@ -51,4 +51,14 @@ The application is a full-stack JavaScript project using a React frontend with T
   - Added Bible verse to footer: "Therefore what God has joined together, let no one separate." — Mark 10:9
   - Updated gift section message with new wording about prayers, presence, and monetary gifts
   - Updated all references throughout the website including Hero, Footer, Venue, DressCode, Timeline, FAQ, RSVP, SaveTheDate, and HashtagGifts sections
+  - **Image Updates** (2025-11-14):
+    - Hero section: Updated to use cover3_1763139981442.JPG
+    - Venue section: Consolidated to single venue image (venue_1763139981453.jpg) for both ceremony and reception
+    - Polaroid section: Changed labels from "soulmates, forever, beloved" to "bride, couple, groom"
+      - Bride image: bride_1763139981440.JPG
+      - Couple image: cover3_1763139981442.JPG  
+      - Groom image: groom_1763139981443.JPG
+    - Cover section: Updated to cover2_1763139981442.JPG
+    - Story section: Updated to shesaidyes_1763139981452.jpg
+    - Prenup photos: Replaced with 12 new images (prenup1-12 with _1763139981444-451.JPG timestamps)
 

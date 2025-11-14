@@ -3,9 +3,9 @@ import flower1Image from '@assets/flower1_1759854441524.png';
 import flowerImage from '@assets/flower_1759854441531.png';
 
 // Polaroid images
-import soulmatesImage from '@assets/Top 1_1762580196001.jpg';
-import foreverImage from '@assets/Top 2_1762580196001.jpg';
-import belovedImage from '@assets/Top 3_1762580196002.jpg';
+import brideImage from '@assets/bride_1763139981440.JPG';
+import coupleImage from '@assets/cover3_1763139981442.JPG';
+import groomImage from '@assets/groom_1763139981443.JPG';
 
 interface RusticInvitationRevealProps {
   animationsEnabled: boolean;
@@ -13,9 +13,9 @@ interface RusticInvitationRevealProps {
 
 const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealProps) => {
   const polaroids = [
-    { src: soulmatesImage, alt: 'soulmates' },
-    { src: foreverImage, alt: 'forever' },
-    { src: belovedImage, alt: 'beloved' }
+    { src: brideImage, alt: 'bride' },
+    { src: coupleImage, alt: 'couple' },
+    { src: groomImage, alt: 'groom' }
   ];
 
   return (

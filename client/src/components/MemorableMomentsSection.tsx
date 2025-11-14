@@ -4,21 +4,18 @@ import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/compone
 import { X } from 'lucide-react';
 
 // Local prenup photos
-import prenup1 from '@assets/prenup1_1762584613683.jpg';
-import prenup2 from '@assets/prenup2_1762584613684.jpg';
-import prenup3 from '@assets/prenup3_1762584613685.jpg';
-import prenup5 from '@assets/prenup5_1762584613686.jpg';
-import prenup6 from '@assets/prenup6_1762584613686.jpg';
-import prenup8 from '@assets/prenup8_1762584613686.jpg';
-import prenup9 from '@assets/prenup9_1762584613687.jpg';
-import prenup10 from '@assets/prenup10_1762584613687.jpg';
-import prenup13 from '@assets/prenup13_1762584613687.jpg';
-import prenup14 from '@assets/prenup14_1762584613688.jpg';
-import prenup16 from '@assets/prenup16_1762584613688.jpg';
-import prenup17 from '@assets/prenup17_1762584613691.jpg';
-import prenup18 from '@assets/prenup18_1762584613691.jpg';
-import prenup19 from '@assets/prenup19_1762584613692.jpg';
-import prenup20 from '@assets/prenup20_1762584613693.jpg';
+import prenup1 from '@assets/prenup1_1763139981444.JPG';
+import prenup2 from '@assets/prenup2_1763139981445.JPG';
+import prenup3 from '@assets/prenup3_1763139981445.JPG';
+import prenup4 from '@assets/prenup4_1763139981446.JPG';
+import prenup5 from '@assets/prenup5_1763139981446.JPG';
+import prenup6 from '@assets/prenup6_1763139981447.JPG';
+import prenup7 from '@assets/prenup7_1763139981448.JPG';
+import prenup8 from '@assets/prenup8_1763139981448.JPG';
+import prenup9 from '@assets/prenup9_1763139981449.JPG';
+import prenup10 from '@assets/prenup10_1763139981450.JPG';
+import prenup11 from '@assets/prenup11_1763139981450.JPG';
+import prenup12 from '@assets/prenup12_1763139981451.JPG';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -27,18 +24,15 @@ const MemorableMomentsSection = () => {
     { src: prenup1, fullSrc: prenup1, alt: "Prenup photo 1", height: "h-64" },
     { src: prenup2, fullSrc: prenup2, alt: "Prenup photo 2", height: "h-80" },
     { src: prenup3, fullSrc: prenup3, alt: "Prenup photo 3", height: "h-72" },
-    { src: prenup5, fullSrc: prenup5, alt: "Prenup photo 5", height: "h-64" },
-    { src: prenup6, fullSrc: prenup6, alt: "Prenup photo 6", height: "h-80" },
-    { src: prenup8, fullSrc: prenup8, alt: "Prenup photo 8", height: "h-72" },
-    { src: prenup9, fullSrc: prenup9, alt: "Prenup photo 9", height: "h-96" },
-    { src: prenup10, fullSrc: prenup10, alt: "Prenup photo 10", height: "h-80" },
-    { src: prenup13, fullSrc: prenup13, alt: "Prenup photo 13", height: "h-72" },
-    { src: prenup14, fullSrc: prenup14, alt: "Prenup photo 14", height: "h-64" },
-    { src: prenup16, fullSrc: prenup16, alt: "Prenup photo 16", height: "h-80" },
-    { src: prenup17, fullSrc: prenup17, alt: "Prenup photo 17", height: "h-72" },
-    { src: prenup18, fullSrc: prenup18, alt: "Prenup photo 18", height: "h-64" },
-    { src: prenup19, fullSrc: prenup19, alt: "Prenup photo 19", height: "h-80" },
-    { src: prenup20, fullSrc: prenup20, alt: "Prenup photo 20", height: "h-72" }
+    { src: prenup4, fullSrc: prenup4, alt: "Prenup photo 4", height: "h-64" },
+    { src: prenup5, fullSrc: prenup5, alt: "Prenup photo 5", height: "h-80" },
+    { src: prenup6, fullSrc: prenup6, alt: "Prenup photo 6", height: "h-72" },
+    { src: prenup7, fullSrc: prenup7, alt: "Prenup photo 7", height: "h-96" },
+    { src: prenup8, fullSrc: prenup8, alt: "Prenup photo 8", height: "h-80" },
+    { src: prenup9, fullSrc: prenup9, alt: "Prenup photo 9", height: "h-72" },
+    { src: prenup10, fullSrc: prenup10, alt: "Prenup photo 10", height: "h-64" },
+    { src: prenup11, fullSrc: prenup11, alt: "Prenup photo 11", height: "h-80" },
+    { src: prenup12, fullSrc: prenup12, alt: "Prenup photo 12", height: "h-72" }
   ];
 
   return (

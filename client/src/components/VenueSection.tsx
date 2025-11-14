@@ -4,8 +4,7 @@ import { MapPin, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { LinkPreview } from '@/components/ui/link-preview';
 
-import ceremonyImage from '@assets/ceremony_1762597121591.png';
-import receptionImage from "@assets/reception_1762597125960.jpg";
+import venueImage from '@assets/venue_1763139981453.jpg';
 
 const VenueSection = () => {
   const venues = [
@@ -13,7 +12,7 @@ const VenueSection = () => {
       title: 'Ceremony',
       name: 'Merryland',
       address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
-      image: ceremonyImage,
+      image: venueImage,
       mapUrl: 'https://maps.app.goo.gl/merryland',
       mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
       description: 'Join us at Merryland for our wedding ceremony. This beautiful venue will witness our vows of eternal love.',
@@ -25,7 +24,7 @@ const VenueSection = () => {
       title: 'Reception',
       name: 'Merryland',
       address: 'Old Cagayan Valley Road 3005 Pulilan, Bulacan',
-      image: receptionImage,
+      image: venueImage,
       mapUrl: 'https://maps.app.goo.gl/merryland',
       mapEmbed: 'https://www.google.com/maps?q=Merryland+Pulilan+Bulacan+Old+Cagayan+Valley+Road+3005&output=embed',
       description: 'Join us at Merryland for our wedding reception. This beautiful venue will host our celebration of love.',

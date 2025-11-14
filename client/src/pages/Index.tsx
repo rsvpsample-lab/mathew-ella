@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import ImageLoop from '@/components/ImageLoop';
 // Cover media
-import cover2Image from '@assets/Dong&Ris-209_1762581138035.jpg';
+import cover2Image from '@assets/cover2_1763139981442.JPG';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
@@ -70,7 +70,7 @@ const Index = () => {
         <VenueSection />
         <CoverSection
           imageUrl={cover2Image}
-          alt="Dong & Riza Wedding Cover 2"
+          alt="Mathew & Reyniella Wedding Cover"
         />
         <DressCodeSection />
         <HashtagGiftsSection />
