@@ -19,9 +19,7 @@ const StorySection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut", delay: 3.8 }}
       >
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">
-          OUR STORY
-        </h2>
+        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display text-center text-foreground mb-3" data-testid="text-story-title">SHE SAID YES!💍</h2>
         <p className="text-center text-sm sm:text-base text-foreground/60 italic">A journey of love and commitment</p>
       </motion.div>
       <div className="max-w-6xl mx-auto">
