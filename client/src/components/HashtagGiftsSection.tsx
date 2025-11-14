@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-import backgroundImage from '@assets/gift guide_1762585959520.jpg';
+const backgroundImage = 'https://res.cloudinary.com/dupi17hk7/image/upload/v1763141215/gift_guq1wc.jpg';
 
 const qrCodeImage = optimizeCloudinaryUrl("https://res.cloudinary.com/dr3xey7h9/image/upload/v1760112758/e0470bd7-d558-4ffc-ab72-05979e344aee.png", { width: 400, quality: 'auto:good' });
 
