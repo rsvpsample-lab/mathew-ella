@@ -1,7 +1,7 @@
 # Wedding Invitation Website
 
 ## Overview
-This project is a full-stack JavaScript application for a wedding invitation website for Kenneth I. Napa and Suzette A. Contreras, celebrating their wedding on December 28, 2025. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
+This project is a full-stack JavaScript application for a wedding invitation website for Engr. Mathew and Reyniella, celebrating their wedding on December 14, 2025. It features a responsive, interactive, and modern design with multiple sections including hero, slideshow, invitation details, countdown, story, venue, RSVP, and more. The website aims to provide an elegant and engaging experience for wedding guests. Key capabilities include an interactive quiz game to reveal different invitation designs, background music with user interaction, and SEO optimization.
 
 ## User Preferences
 - Background music should play automatically when clicking "Open Invitation" with NO control buttons
@@ -22,30 +22,33 @@ The application is a full-stack JavaScript project using a React frontend with T
 - **Vite**: Frontend build tool.
 
 ## Recent Changes
-- **2025-11-14**: Complete content overhaul for Kenneth & Suzette's wedding:
-  - Updated all components with new couple names "Kenneth I. Napa & Suzette A. Contreras"
-  - Changed wedding date to December 28, 2025 at 2:30 PM
-  - Updated venues to two separate locations in Taal, Batangas:
-    - Ceremony: Basilica De San Martin De Tours - Taal, Batangas
-    - Reception: The Stable Rancho Blanco Event Center - Taal, Batangas
-  - Updated dress code section with new attire guidelines:
-    - Principal Sponsors: Formal attire
+- **2025-11-14**: Complete content overhaul for Engr. Mathew & Reyniella's wedding:
+  - Updated all components with new couple names "Engr. Mathew & Reyniella"
+  - Changed wedding date to December 14, 2025 at 3:00 PM
+  - Updated venue to single location in Pulilan, Bulacan:
+    - Ceremony & Reception: Merryland - Old Cagayan Valley Road 3005 Pulilan, Bulacan
+  - Updated dress code section with detailed attire guidelines:
+    - Sponsors: Formal attire
+      - Men: Coat / Barong / Long sleeves
+      - Women: Evening Gown / Tailored Suits
     - Guests: Semi Formal Attire
-    - Added important reminder: Strictly no denim pants and t-shirts
+      - Men: Suit / Blazer / Polo / Polo Shirt
+      - Women: Sunday dress / Jumpsuit / Elegant Skirt
+    - Maintained important reminder: Strictly no denim pants and t-shirts
   - Updated wedding color palette:
     - Ivory (#FFFFF0), Champagne (#F7E7CE), Espresso Brown (#4E3524), Gold (#FFD700)
   - Updated wedding timeline:
-    - 2:00 PM: Assembly Time
-    - 2:30 PM: Wedding Ceremony
-    - 3:30 PM: Photos
-    - 4:30 PM: Pica Pica
-    - 5:00 PM: Reception
-    - 6:00 PM: Dinner
-    - 8:00 PM: Party Party!
-    - 9:00 PM: Send-off
-  - Changed wedding hashtag to #SuzyKennethAskForMore
-  - Updated RSVP deadline to December 20, 2025
-  - Updated RSVP link to kenneth-suzette-rsvp.replit.app
-  - Updated countdown timer to December 28, 2025 at 2:30 PM
+    - 2:00 PM: Guest Arrival
+    - 3:00 PM: Ceremony
+    - 5:00 PM: Cocktail Hours
+    - 6:00 PM: Program
+  - Changed wedding hashtag to #ELLAndedToMATsHeart
+  - Updated RSVP details:
+    - Contact: Reyniella Valiente / Ella Ella on Facebook
+    - Phone: 09766497574
+    - Deadline: November 25
+  - Updated countdown timer to December 14, 2025 at 3:00 PM
+  - Added Bible verse to footer: "Therefore what God has joined together, let no one separate." — Mark 10:9
+  - Updated gift section message with new wording about prayers, presence, and monetary gifts
   - Updated all references throughout the website including Hero, Footer, Venue, DressCode, Timeline, FAQ, RSVP, SaveTheDate, and HashtagGifts sections
 
