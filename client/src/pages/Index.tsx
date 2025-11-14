@@ -18,7 +18,6 @@ import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 import CoverSection from '@/components/CoverSection';
 import InvitationRevealSection from '@/components/InvitationRevealSection';
-import SaveTheDateSection from '@/components/SaveTheDateSection';
 import MusicConsentPopup from '@/components/MusicConsentPopup';
 import { AnimationContext } from '@/contexts/AnimationContext';
 
@@ -65,7 +64,6 @@ const Index = () => {
         <CountdownSection />
         <ImageLoop />
         <StorySection />
-        <SaveTheDateSection audioRef={audioRef} />
         <ScrollTriggeredTimeline />
         <VenueSection />
         <CoverSection
