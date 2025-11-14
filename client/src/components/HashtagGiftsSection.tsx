@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-const backgroundImage = 'https://res.cloudinary.com/dupi17hk7/image/upload/v1763141215/gift_guq1wc.jpg';
+const backgroundImage = 'https://res.cloudinary.com/dupi17hk7/image/upload/v1763141308/prenup12_nqlwa7.jpg';
 
 const qrCodeImage = optimizeCloudinaryUrl("https://res.cloudinary.com/dr3xey7h9/image/upload/v1760112758/e0470bd7-d558-4ffc-ab72-05979e344aee.png", { width: 400, quality: 'auto:good' });
 
