@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import principalSponsorsImage from '@assets/image_1763142182603.png';
 
 const EntourageSection = () => {
   const entourageData = {
@@ -154,16 +153,6 @@ const EntourageSection = () => {
           <h3 className="text-xl md:text-2xl lg:text-3xl font-display font-bold mb-4 md:mb-6 text-primary" data-testid="principal-sponsors-title">
             {entourageData.principalSponsors.title}
           </h3>
-          
-          <div className="mb-6 md:mb-8 max-w-5xl mx-auto">
-            <img 
-              src={principalSponsorsImage} 
-              alt="Principal Sponsors" 
-              className="w-full h-auto rounded-lg shadow-lg"
-              data-testid="img-principal-sponsors"
-            />
-          </div>
-
           <div className="max-w-4xl mx-auto space-y-1">
             {entourageData.principalSponsors.men.map((manName, index) => {
               const womanName = entourageData.principalSponsors.women[index];

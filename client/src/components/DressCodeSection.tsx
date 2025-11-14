@@ -1,23 +1,16 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-import principalSponsorsImage from '@assets/princi_1762584098544.png';
+import principalSponsorsImage from '@assets/image_1763142182603.png';
 import flower9 from '@assets/flower9_1759741371017.png';
 import flower3 from '@assets/flower3_1759741371015.png';
-import guestsImage from '@assets/guests_1762584098544.png';
+import guestsImage from '@assets/image_1763142555788.png';
 
 const DressCodeSection = () => {
   const dressCodeColors = [
-    { name: 'Ivory', color: '#FFFFF0', hex: '#FFFFF0' },
-    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
-    { name: 'Espresso Brown', color: '#4E3524', hex: '#4E3524' },
-    { name: 'Gold', color: '#FFD700', hex: '#FFD700' }
-  ];
-
-  const principalSponsorsColors = [
-    { name: 'Ivory', color: '#FFFFF0', hex: '#FFFFF0' },
-    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' },
-    { name: 'Espresso Brown', color: '#4E3524', hex: '#4E3524' },
-    { name: 'Gold', color: '#FFD700', hex: '#FFD700' }
+    { name: 'Brown', color: '#8B7355', hex: '#8B7355' },
+    { name: 'Beige', color: '#D4C5B9', hex: '#D4C5B9' },
+    { name: 'Pale Pink', color: '#E8C5C5', hex: '#E8C5C5' },
+    { name: 'Champagne', color: '#F7E7CE', hex: '#F7E7CE' }
   ];
 
   return (
@@ -88,27 +81,6 @@ const DressCodeSection = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 8.5 }}
                 />
-                
-                {/* Color Palette for Principal Sponsors */}
-                <motion.div
-                  className="mt-6 pt-6 border-t border-primary/20"
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 8.7 }}
-                >
-                  <p className="text-sm font-semibold text-foreground mb-3">Color Palette</p>
-                  <div className="flex justify-center gap-4 flex-wrap">
-                    {principalSponsorsColors.map((colorItem, index) => (
-                      <div key={index} className="text-center">
-                        <div 
-                          className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl border-2 border-border shadow-soft hover:scale-105 transition-transform duration-300"
-                          style={{ backgroundColor: colorItem.color }}
-                        ></div>
-                        <p className="text-xs text-foreground mt-1">{colorItem.name}</p>
-                      </div>
-                    ))}
-                  </div>
-                </motion.div>
               </div>
             </div>
           </motion.div>
