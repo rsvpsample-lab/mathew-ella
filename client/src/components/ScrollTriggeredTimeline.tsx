@@ -56,7 +56,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
                                 <h3 className="text-sm md:text-base font-serif font-semibold text-foreground uppercase tracking-wide">
                                     {timelineEvent.event}
                                 </h3>
-                                <p className="text-[10px] md:text-xs text-muted-foreground/80 leading-tight">
+                                <p className="text-sm md:text-base text-muted-foreground/80 leading-relaxed">
                                     {timelineEvent.description}
                                 </p>
                             </div>
@@ -95,7 +95,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({ timelineEvent, i }) => {
                                 <h3 className="text-sm md:text-base font-serif font-semibold text-foreground uppercase tracking-wide">
                                     {timelineEvent.event}
                                 </h3>
-                                <p className="text-[10px] md:text-xs text-muted-foreground/80 leading-tight">
+                                <p className="text-sm md:text-base text-muted-foreground/80 leading-relaxed">
                                     {timelineEvent.description}
                                 </p>
                             </div>
